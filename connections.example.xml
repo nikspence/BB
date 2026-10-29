@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bucket-browser version="1" credentials="redacted">
+  <preferences theme="dark" touch="True" default_connection="" default_bucket="" local_path="C:\Users" />
+  <connections>
+    <connection id="example-azure" name="Azure example" provider="azure" bucket="">
+      <setting name="account_name">YOUR_ACCOUNT_NAME</setting>
+      <setting name="endpoint_suffix">core.windows.net</setting>
+    </connection>
+    <connection id="example-s3" name="S3 example" provider="s3" bucket="">
+      <setting name="key_id">YOUR_KEY_ID</setting>
+      <setting name="region">us-west-2</setting>
+      <setting name="endpoint" />
+    </connection>
+    <connection id="example-appwrite" name="Appwrite example" provider="appwrite" bucket="">
+      <setting name="endpoint">https://YOUR_REGION.cloud.appwrite.io/v1</setting>
+      <setting name="project_id">YOUR_PROJECT_ID</setting>
+    </connection>
+  </connections>
+</bucket-browser>
